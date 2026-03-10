@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!--  <bean id="std" class="com.spring.applicationcontext.xml.Student">-->
+<bean id="std2" class="com.spring.applicationcontext.xml.part2.Student">
+
+<property name="stdId" value="101"></property>
+<property name="stdName" value="piyu"></property>
+<property name="stdCity" value="nagpur"></property>
+<property name="Add" ref="add"></property>
+
+</bean>
+
+<bean id="add" class="com.spring.applicationcontext.xml.part2.Address">
+
+
+<property name="City" value="nagpur"></property>
+<property name="Country" value="india"></property>
+<property name="State" value="mh"></property>
+
+</bean>
+
+</beans>

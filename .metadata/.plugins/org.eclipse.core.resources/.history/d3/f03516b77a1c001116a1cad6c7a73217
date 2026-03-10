@@ -1,0 +1,9 @@
+package com.spring.applicationcontext.xml;
+
+public class StdMain {
+
+	
+	public static void main(String[] args) {
+		
+	}
+}

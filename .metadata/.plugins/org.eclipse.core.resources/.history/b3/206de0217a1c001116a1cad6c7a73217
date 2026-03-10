@@ -1,0 +1,24 @@
+package com.spring.applicationcontext.xml;
+
+public class Student {
+
+	private int stdId;
+	private String stdName;
+	private String stdCity;
+	
+	
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Student(int stdId, String stdName, String stdCity) {
+		super();
+		this.stdId = stdId;
+		this.stdName = stdName;
+		this.stdCity = stdCity;
+	}
+	
+	
+}

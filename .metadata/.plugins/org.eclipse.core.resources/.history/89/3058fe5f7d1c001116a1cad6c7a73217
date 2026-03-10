@@ -1,0 +1,23 @@
+package com.spring.applicationcontext.xml.part2;
+
+public class Address {
+
+	private String City;
+	private String Country;
+	private String State;
+	
+	public Address() {
+		
+	}
+
+	public Address(String city, String country, String state) {
+		super();
+		City = city;
+		Country = country;
+		State = state;
+	}
+	
+	
+	
+	
+}

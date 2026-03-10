@@ -1,0 +1,10 @@
+package com.spring.applicationcontext.xml;
+
+public class Student {
+
+	private int stdId;
+	private String stdName;
+	private String stdCity;
+	
+	
+}

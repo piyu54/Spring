@@ -1,0 +1,66 @@
+package com.spring.applicationcontext.xml.part2;
+
+public class Student {
+
+	
+	private int stdId;
+	private String stdName;
+	
+	
+	Address Add;
+	
+	public Student() {
+		
+	}
+
+
+	public Student(int stdId, String stdName,Address Add) {
+		super();
+		this.stdId = stdId;
+		this.stdName = stdName;
+		this.Add=Add;
+	}
+
+
+	public int getStdId() {
+		return stdId;
+	}
+
+
+	public void setStdId(int stdId) {
+		this.stdId = stdId;
+	}
+
+
+	public String getStdName() {
+		return stdName;
+	}
+
+
+	public void setStdName(String stdName) {
+		this.stdName = stdName;
+	}
+
+
+	
+	
+
+	public Address getAdd() {
+		return Add;
+	}
+
+
+	public void setAdd(Address add) {
+		Add = add;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Student [stdId=" + stdId + ", stdName=" + stdName + ", Add=" + Add + "]";
+	}
+
+
+	
+	
+}

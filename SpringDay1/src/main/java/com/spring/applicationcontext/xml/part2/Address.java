@@ -1,0 +1,52 @@
+package com.spring.applicationcontext.xml.part2;
+
+public class Address {
+
+	private String City;
+	private String Country;
+	private String State;
+	
+	public Address() {
+		
+	}
+
+	public Address(String city, String country, String state) {
+		super();
+		City = city;
+		Country = country;
+		State = state;
+	}
+
+	public String getCity() {
+		return City;
+	}
+
+	public void setCity(String city) {
+		City = city;
+	}
+
+	public String getCountry() {
+		return Country;
+	}
+
+	public void setCountry(String country) {
+		Country = country;
+	}
+
+	public String getState() {
+		return State;
+	}
+
+	public void setState(String state) {
+		State = state;
+	}
+
+	@Override
+	public String toString() {
+		return "Address [City=" + City + ", Country=" + Country + ", State=" + State + "]";
+	}
+	
+	
+	
+	
+}

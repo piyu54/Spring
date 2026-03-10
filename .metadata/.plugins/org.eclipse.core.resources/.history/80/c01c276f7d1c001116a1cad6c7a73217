@@ -1,0 +1,5 @@
+package com.spring.applicationcontext.xml.part2;
+
+public class Student {
+
+}

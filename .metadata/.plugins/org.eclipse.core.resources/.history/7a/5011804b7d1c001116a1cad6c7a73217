@@ -1,0 +1,16 @@
+package com.spring.applicationcontext.xml.part2;
+
+public class Address {
+
+	private String City;
+	private String Country;
+	private String State;
+	
+	public Address() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+}
