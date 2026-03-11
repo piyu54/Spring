@@ -88,3 +88,8 @@
 0:04:04 Microsoft.Browser_Removed
 0:04:05 Memory Pressure: Moderate
 0:04:15 Memory Pressure: Moderate
+0:04:25 Memory Pressure: Moderate
+0:04:35 Memory Pressure: Moderate
+0:04:40 Memory Pressure: Critical
+0:04:45 Memory Pressure: Critical
+0:04:50 Memory Pressure: Moderate
