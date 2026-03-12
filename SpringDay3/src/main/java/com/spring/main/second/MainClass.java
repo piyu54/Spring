@@ -11,7 +11,7 @@ import com.spring.config.second.Config1;
 public class MainClass {
 	
 	public static void main(String[] args) {
-		//
+		
 		ApplicationContext context =new AnnotationConfigApplicationContext(Config1.class);
 		Person p=context.getBean(Person.class);
 		
