@@ -1,9 +1,0 @@
-package com.spring.applicationcontext.xml;
-
-public class Main {
-
-	
-	public static void main(String[] args) {
-		
-	}
-}
