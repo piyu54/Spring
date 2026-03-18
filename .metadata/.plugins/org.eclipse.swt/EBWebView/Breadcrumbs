@@ -122,3 +122,4 @@
 0:00:00 Tab1 PageLoad
 0:00:00 Tab1 FinishNav2
 0:00:14 Tab1 PageLoad
+0:00:52 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
