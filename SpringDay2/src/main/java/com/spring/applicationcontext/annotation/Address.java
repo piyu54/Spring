@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Address {
-
+//
 	@Value("nagpur")
 	private String City;
 	@Value("India")
