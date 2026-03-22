@@ -8,7 +8,7 @@ public class StdMain {
 	
 	public static void main(String[] args) {
 		
-		
+		//
 		
 		ApplicationContext context=new ClassPathXmlApplicationContext("springbeans.xml");
 		Student s=context.getBean("std",Student.class);
